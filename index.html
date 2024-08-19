@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+    <title>Tea House</title>
+    <style>
+      .manrope{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+}
+    </style>
 </head>
 <body>
-    
+    <main class="max-w-screen-xl mx-auto px-16 mt-5">
+<section class="banner mb-5 lg:flex items-center w-full">
+  <!-- banner content -->
+   <div class="lg:w-3/6">
+    <h1 class="text-5xl font-bold manrope leading-normal mb-5 text-[#1C1C1C]">It's good <br>
+      tea time at The <br> Tea House</h1>
+    <p class="w-5/6 mb-7 manrope text-1xl text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+    <button class=" bg-gradient-to-r from-[#FF8938] to-[#FF0000] flex p-3 gap-2 items-center rounded-md text-white">Explore Now <img src="images/arrow.png"></button>
+   </div>
+   <!-- banner img -->
+    <div class="mt-8 relative lg:w-3/6">
+      <img src="images/banner.png" alt="">
+      <div class="card flex items-center gap-2 shadow-lg p-3 absolute top-48 bg-white rounded-sm lg:top-72">
+        <i class="fa-solid fa-star text-2xl text-yellow-300"></i>
+        <div class="card-content">
+          <h4 class="text-2xl font-bold">5.00</h4>
+          <p>Trust Pilot Ratings</p>
+        </div>
+      </div>
+    </div>
+</section>
+
+    </main>
+    <footer></footer>
 </body>
 </html>
